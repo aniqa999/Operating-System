@@ -58,7 +58,8 @@ public class WelcomeScreen {
         rightPanel.add(firstImageLabel);
 
         // Add the second overlapping image with a blue border
-        ImageIcon secondImageIcon = new ImageIcon("C:\\Users\\aniqa\\IdeaProjects\\final 2\\final\\src\\image.png");
+        ImageIcon secondImageIcon = new ImageIcon("D:\\OTHERS\\OsPROJECT\\azab\\final 2\\final\\src\\image.png");
+
         Image secondImage = secondImageIcon.getImage().getScaledInstance(300, 500, Image.SCALE_SMOOTH);
         JLabel secondImageLabel = new JLabel(new ImageIcon(secondImage));
         secondImageLabel.setBounds(150, 100, 520, 400);

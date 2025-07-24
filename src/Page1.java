@@ -59,7 +59,8 @@ public class Page1 extends JFrame {
         add(subtitle);
 
         // Image with Border
-        ImageIcon originalImage = new ImageIcon("C:\\Users\\aniqa\\IdeaProjects\\final 2\\final\\src\\image.png");
+        ImageIcon originalImage = new ImageIcon("D:\\OTHERS\\OsPROJECT\\azab\\final 2\\final\\src\\image.png");
+
         Image scaledImage = originalImage.getImage().getScaledInstance(500, 200, Image.SCALE_SMOOTH);
         ImageIcon resizedImage = new ImageIcon(scaledImage);
         JLabel imageLabel = new JLabel(resizedImage);
